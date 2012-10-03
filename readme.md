@@ -3,7 +3,7 @@
 
 ##ATTENZIONE FARE BACK-UP COMPLETO FILE + DATABASE PRIMA DI PROCEDERE##
 
-Applicando i file presenti in "root_zencart" in sovrascrittura nella root del Vs Zen Cart, dopo aver opportunamente rinominato la cartella "admin" con il nome che le avete assegnato online, sarà possibile aggiornare la versione 1.5.0 alla nuova 1.5.1 ITALIANA di Zen Cart® alla data 01/10/2012. La contiene l'aggiornamento ufficiale USA e non il bugfix per file e cartelle "italian" con codifica corretta in utf8.
+Applicando i file presenti in "root_zencart" in sovrascrittura nella root del Vs Zen Cart, dopo aver opportunamente rinominato la cartella "admin" con il nome che le avete assegnato online, sarà possibile aggiornare la versione 1.5.0 alla nuova 1.5.1 ITALIANA di Zen Cart® alla data 01/10/2012. Questo pacchetto non contiene la patch di conversione codifica in utf8 dei files di lingua italiana. Se non è stata applicata in precedenza la patch di codifica utf8, allora è preferibile aggiornare in altro modo: scaricando la patch di codifica, applicandola e poi applicando questo aggiornamento oppure scaricando il pacchetto che comprende sia la patch di codifica sia l'aggiornamento.  
 
 Una volta caricati i file (attenzione ad evitare la possibile sovrascrittura dei file di lingua in /classic) è necessario da pannello di amministrazione in Strumenti > Installa patch SQL lanciare:
 UPGRADE_mysql_ZC_da_150_a_151.sql
