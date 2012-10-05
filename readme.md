@@ -1,4 +1,4 @@
-#Questa è una patch di aggiornamento SOLO per la versione 1.5.0.#
+#Questa è un pacchetto di aggiornamento SOLO per la versione 1.5.0.#
 È composta da una cartella di file da caricare + una patch SQL da lanciare.
 
 ##ATTENZIONE FARE BACK-UP COMPLETO FILE + DATABASE PRIMA DI PROCEDERE##
